@@ -12,6 +12,7 @@ public class Navigation implements Serializable {
 	public Navigation() {
 		items = new ArrayList<Page>();
 		items.add(new Page("Home", "index.xsp"));
+		items.add(new Page("Demo", "demo.xsp"));
 		items.add(new Page("About", "about.xsp"));
 	}
 

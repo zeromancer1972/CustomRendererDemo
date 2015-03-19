@@ -2,4 +2,25 @@
 <xp:view
 	xmlns:xp="http://www.ibm.com/xsp/core"
 	xmlns:xc="http://www.ibm.com/xsp/custom">
-	<xc:ccLayout></xc:ccLayout></xp:view>
+	<xc:ccLayout>
+		<xp:this.facets>
+			<xp:div
+				xp:key="content">
+				<article
+					class="uk-article">
+					<h1
+						class="uk-article-title">Author: Oliver Busse</h1>
+					<p
+						class="uk-article-meta">
+						<a
+							href="http://about.me/oliverbusse"
+							target="_blank">http://about.me/oliverbusse</a>
+					</p>
+					<p
+						class="uk-article-lead">This software is licensed under the Apache License 2.0 </p>
+					<p>Made with love and IBM XPages</p>
+				</article>
+			</xp:div>
+		</xp:this.facets>
+	</xc:ccLayout>
+</xp:view>
