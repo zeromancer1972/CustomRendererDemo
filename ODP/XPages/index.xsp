@@ -5,20 +5,29 @@
 	<xc:ccLayout>
 		<xp:this.facets>
 			<xp:div
-				xp:key="content">
+				xp:key="rightcol">
 				<div
-					class="uk-grid">
+					class="uk-panel uk-panel-box">
 					<div
-						class="uk-width-1-2">
-						<div
-							class="uk-panel uk-panel-box uk-panel-box-primary">...</div>
-					</div>
-					<div
-						class="uk-width-1-2">
-						<div
-							class="uk-panel uk-panel-box uk-panel-box-primary">...</div>
-					</div>
+						class="uk-panel-badge uk-badge uk-badge-danger">Hot!</div>
+					<h3
+						class="uk-panel-title">A panel</h3>
+					<p>This panel uses default markup.</p>
 				</div>
+			</xp:div>
+			<xp:div
+				xp:key="content">
+				<article
+					class="uk-article">
+					<h1
+						class="uk-article-title">Welcome to the Custom Renderer demo</h1>
+					<p
+						class="uk-article-meta">Created March 19, 2015 by Oliver Busse</p>
+					<p
+						class="uk-article-lead">This demo shows the usage of custom renderers</p>
+					<p>Custom renderers are very handy when dealing with complex
+						markup in a repetitive way to save time and reduce errors.</p>
+				</article>
 			</xp:div>
 		</xp:this.facets>
 	</xc:ccLayout>
