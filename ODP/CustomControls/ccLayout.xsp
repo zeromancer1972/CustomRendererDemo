@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<nav
+		class="uk-navbar uk-navbar-attached">
+		<div
+			class="uk-container uk-container-center">
+			<xp:text
+				styleClass="uk-navbar-brand"
+				value="#{javascript:@DbTitle()}">
+			</xp:text>
+			<div
+				class="uk-navbar-flip">
+				<ul
+					class="uk-navbar-nav">
+					<xp:repeat
+						value="${javascript:nav.items}"
+						var="entry">
+						<li
+							class="#{javascript:entry.isActive(view.getPageName()) ? 'uk-active' : ''}">
+							<xp:link
+								text="#{javascript:entry.label}"
+								value="#{javascript:entry.url}"></xp:link>
+						</li>
+					</xp:repeat>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div
+		class="uk-container uk-container-center">
+		<div
+			class="uk-grid">
+			<div
+				class="uk-width-7-10">
+				<xp:callback
+					facetName="content"
+					id="callback1">
+				</xp:callback>
+			</div>
+			<div
+				class="uk-width-3-10">
+				<xp:callback
+					facetName="rightcol"
+					id="callback2">
+				</xp:callback>
+			</div>
+		</div>
+	</div>
+</xp:view>

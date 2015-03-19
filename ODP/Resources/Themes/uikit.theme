@@ -1,0 +1,24 @@
+<theme
+	extends="webstandard"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
+	<resource>
+		<content-type>text/css</content-type>
+		<href>bower_components/uikit/css/uikit.gradient.css</href>
+	</resource>
+	<resource>
+		<content-type>application/x-javascript</content-type>
+		<href>bower_components/jquery/dist/jquery.js</href>
+	</resource>
+	<resource>
+		<content-type>application/x-javascript</content-type>
+		<href>bower_components/uikit/js/uikit.js</href>
+	</resource>
+	<control>
+		<name>ViewRoot</name>
+		<property>
+			<name>pageTitle</name>
+			<value>#{javascript:@DbTitle()}</value>
+		</property>
+	</control>
+</theme>
