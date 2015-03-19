@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<div
+		class="uk-panel uk-panel-box">
+		<xp:panel
+			tagName="h3"
+			rendered="#{javascript:compositeData.title!=null}">
+			<xp:text
+				value="#{javascript:compositeData.title}"></xp:text>
+		</xp:panel>
+		<xp:callback
+			facetName="content"
+			id="callback1">
+		</xp:callback>
+	</div>
+</xp:view>

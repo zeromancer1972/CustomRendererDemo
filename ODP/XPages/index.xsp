@@ -11,9 +11,23 @@
 					<div
 						class="uk-panel-badge uk-badge uk-badge-danger">Hot!</div>
 					<h3
-						class="uk-panel-title">A panel</h3>
-					<p>This panel uses default markup.</p>
+						class="uk-panel-title">A basic panel</h3>
+					<p>This panel uses direkt markup.</p>
 				</div>
+				<br />
+				<xc:ccPanel
+					title="Custom Control">
+					<xp:this.facets>
+						<xp:div
+							xp:key="content"> This panel was created using a custom control</xp:div>
+					</xp:this.facets>
+				</xc:ccPanel>
+				<br />
+				<xp:div
+					title="Custom"
+					rendererType="uikit.Panel">
+					<p>This panel was rendererd with a custom renderer!</p>
+				</xp:div>
 			</xp:div>
 			<xp:div
 				xp:key="content">
