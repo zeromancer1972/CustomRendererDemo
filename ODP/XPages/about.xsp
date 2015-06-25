@@ -2,6 +2,7 @@
 <xp:view
 	xmlns:xp="http://www.ibm.com/xsp/core"
 	xmlns:xc="http://www.ibm.com/xsp/custom">
+	
 	<xc:ccLayout>
 		<xp:this.facets>
 			<xp:div

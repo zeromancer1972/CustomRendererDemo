@@ -2,7 +2,56 @@
 <xp:view
 	xmlns:xp="http://www.ibm.com/xsp/core"
 	xmlns:xc="http://www.ibm.com/xsp/custom">
-	<xc:ccLayout>
-		
+	<xc:ccLayout
+		id="page">
+		<xp:this.facets>
+			<xp:div
+				xp:key="content">
+				<div
+					class="uk-form">
+					<xp:comboBox
+						id="comboBox1">
+						<xp:selectItems>
+							<xp:this.value><![CDATA[#{javascript:return ["value 1", "value 2"];}]]></xp:this.value>
+						</xp:selectItems>
+						<xp:eventHandler
+							event="onchange"
+							submit="true"
+							refreshMode="partial"
+							refreshId="page">
+						</xp:eventHandler>
+					</xp:comboBox>
+				</div>
+				<br />
+				<br />
+				<ul
+					class="uk-tab"
+					data-uk-tab="data-uk-tab"
+					data-uk-switcher="{connect:'#my-id'}">
+					<li
+						class="uk-active">
+						<a
+							href="">Tab 1</a>
+					</li>
+					<li>
+						<a
+							href="">Tab 2</a>
+					</li>
+				</ul>
+
+				<ul
+					id="my-id"
+					class="uk-switcher">
+					<li>
+						<div
+							class="uk-panel-box">tab content 1</div>
+					</li>
+					<li>
+						<div
+							class="uk-panel-box">tab content 2</div>
+					</li>
+				</ul>
+			</xp:div>
+		</xp:this.facets>
 	</xc:ccLayout>
 </xp:view>
