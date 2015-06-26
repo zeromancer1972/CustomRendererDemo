@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.2' replicaid='C1257E0D00083A5D'>
-<noteinfo noteid='11a' unid='4DFC062FF2FEFBBEC1257E0D00083A99' sequence='3'>
-<created><datetime>20150319T022952,89+01</datetime></created>
-<modified><datetime>20150319T022952,96+01</datetime></modified>
-<revised><datetime>20150319T022952,95+01</datetime></revised>
-<lastaccessed><datetime>20150319T022952,96+01</datetime></lastaccessed>
-<addedtofile><datetime>20150319T022952,92+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Oliver Busse/O=ulcbs</name></updatedby>
+ maintenanceversion='1.3' replicaid='C1257E6F005B7753'>
+<noteinfo noteid='11e' unid='4ED1B2F518641ADDC1257E6F005B7757' sequence='10'>
+<created><datetime dst='true'>20150625T183903,27+02</datetime></created>
+<modified><datetime dst='true'>20150625T184003,40+02</datetime></modified>
+<revised><datetime dst='true'>20150625T184003,39+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20150625T184003,39+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20150625T183903,29+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=DEV-We4IT</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=DEV-We4IT</name></wassignedby>
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA
@@ -23,7 +24,10 @@ d30fAAAAAPHXd33Xd3d913d9HwAAAADx13d913d3fdd3fR8AAAAA8R3d0dd3d30d3dEfAAAAAA8R
 EREdd3fRERER8AAAAAAA////Ed3dEf///wAAAAAAAAAAAPERER8AAAAAAAAAAAAAAAAP///wAAAA
 AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
-<item name='$Flags'><text>J</text></item>
 <item name='$Daos'><text>0</text></item>
-<item name='$TITLE'><text>Custom Renderers</text></item></note>
+<item name='$TITLE'><text>Custom Renderers</text></item>
+<item name='$Flags'><text>J7!</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text>rv</text></item>
+<item name='$DefaultXPage'><text>index.xsp</text></item></note>
 
